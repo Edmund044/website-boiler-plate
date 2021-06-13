@@ -43,6 +43,15 @@ import { PricingComponent } from './pricing/pricing.component';
 import { SmsComponent } from './sms/sms.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { SavesComponent } from './saves/saves.component';
+import { OrdersAdminComponent } from './orders-admin/orders-admin.component';
+import { OrdersUserComponent } from './orders-user/orders-user.component';
+import { OrdersProviderComponent } from './orders-provider/orders-provider.component';
+import { NotificationsUserComponent } from './notifications-user/notifications-user.component';
+import { NotificationsAdminComponent } from './notifications-admin/notifications-admin.component';
+import { NotificationsProviderComponent } from './notifications-provider/notifications-provider.component';
+import { DashboardUserComponent } from './dashboard-user/dashboard-user.component';
+import { DashboardProviderComponent } from './dashboard-provider/dashboard-provider.component';
+import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.component';
 
 @NgModule({
   declarations: [
@@ -86,7 +95,16 @@ import { SavesComponent } from './saves/saves.component';
     PricingComponent,
     SmsComponent,
     ReviewsComponent,
-    SavesComponent
+    SavesComponent,
+    OrdersAdminComponent,
+    OrdersUserComponent,
+    OrdersProviderComponent,
+    NotificationsUserComponent,
+    NotificationsAdminComponent,
+    NotificationsProviderComponent,
+    DashboardUserComponent,
+    DashboardProviderComponent,
+    DashboardAdminComponent
   ],
   imports: [
     BrowserModule,
