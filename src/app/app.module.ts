@@ -52,6 +52,7 @@ import { NotificationsProviderComponent } from './notifications-provider/notific
 import { DashboardUserComponent } from './dashboard-user/dashboard-user.component';
 import { DashboardProviderComponent } from './dashboard-provider/dashboard-provider.component';
 import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.component';
+import { ReviewFormComponent } from './review-form/review-form.component';
 
 @NgModule({
   declarations: [
@@ -104,7 +105,8 @@ import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.compo
     NotificationsProviderComponent,
     DashboardUserComponent,
     DashboardProviderComponent,
-    DashboardAdminComponent
+    DashboardAdminComponent,
+    ReviewFormComponent
   ],
   imports: [
     BrowserModule,
