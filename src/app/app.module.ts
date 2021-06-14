@@ -53,6 +53,14 @@ import { DashboardUserComponent } from './dashboard-user/dashboard-user.componen
 import { DashboardProviderComponent } from './dashboard-provider/dashboard-provider.component';
 import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.component';
 import { ReviewFormComponent } from './review-form/review-form.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ServicesDetailsComponent } from './services-details/services-details.component';
+import { PortfolioDetailComponent } from './portfolio-detail/portfolio-detail.component';
+import { EventsCardsComponent } from './events-cards/events-cards.component';
+import { EventDetailsComponent } from './event-details/event-details.component';
+import { ProfileAdminComponent } from './profile-admin/profile-admin.component';
+import { ProfileUserComponent } from './profile-user/profile-user.component';
+import { ProfileProviderComponent } from './profile-provider/profile-provider.component';
 
 @NgModule({
   declarations: [
@@ -106,7 +114,15 @@ import { ReviewFormComponent } from './review-form/review-form.component';
     DashboardUserComponent,
     DashboardProviderComponent,
     DashboardAdminComponent,
-    ReviewFormComponent
+    ReviewFormComponent,
+    PageNotFoundComponent,
+    ServicesDetailsComponent,
+    PortfolioDetailComponent,
+    EventsCardsComponent,
+    EventDetailsComponent,
+    ProfileAdminComponent,
+    ProfileUserComponent,
+    ProfileProviderComponent
   ],
   imports: [
     BrowserModule,
