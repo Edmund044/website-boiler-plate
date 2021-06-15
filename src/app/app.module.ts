@@ -69,6 +69,10 @@ import { NavigationProviderComponent } from './navigation-provider/navigation-pr
 import { OrderDetailsAdminComponent } from './order-details-admin/order-details-admin.component';
 import { OrderDetailsProviderComponent } from './order-details-provider/order-details-provider.component';
 import { OrderDetailsUserComponent } from './order-details-user/order-details-user.component';
+import { FeaturesComponent } from './features/features.component';
+import { TractionComponent } from './traction/traction.component';
+import { ClientsComponent } from './clients/clients.component';
+import { NewsletterUserComponent } from './newsletter-user/newsletter-user.component';
 
 @NgModule({
   declarations: [
@@ -138,7 +142,11 @@ import { OrderDetailsUserComponent } from './order-details-user/order-details-us
     NavigationProviderComponent,
     OrderDetailsAdminComponent,
     OrderDetailsProviderComponent,
-    OrderDetailsUserComponent
+    OrderDetailsUserComponent,
+    FeaturesComponent,
+    TractionComponent,
+    ClientsComponent,
+    NewsletterUserComponent
   ],
   imports: [
     BrowserModule,
