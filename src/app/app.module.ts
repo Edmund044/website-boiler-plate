@@ -61,6 +61,14 @@ import { EventDetailsComponent } from './event-details/event-details.component';
 import { ProfileAdminComponent } from './profile-admin/profile-admin.component';
 import { ProfileUserComponent } from './profile-user/profile-user.component';
 import { ProfileProviderComponent } from './profile-provider/profile-provider.component';
+import { NotificationDetailsAdminComponent } from './notification-details-admin/notification-details-admin.component';
+import { NotificationDetailsProviderComponent } from './notification-details-provider/notification-details-provider.component';
+import { NotificationDetailsUserComponent } from './notification-details-user/notification-details-user.component';
+import { NavigationAdminComponent } from './navigation-admin/navigation-admin.component';
+import { NavigationProviderComponent } from './navigation-provider/navigation-provider.component';
+import { OrderDetailsAdminComponent } from './order-details-admin/order-details-admin.component';
+import { OrderDetailsProviderComponent } from './order-details-provider/order-details-provider.component';
+import { OrderDetailsUserComponent } from './order-details-user/order-details-user.component';
 
 @NgModule({
   declarations: [
@@ -122,7 +130,15 @@ import { ProfileProviderComponent } from './profile-provider/profile-provider.co
     EventDetailsComponent,
     ProfileAdminComponent,
     ProfileUserComponent,
-    ProfileProviderComponent
+    ProfileProviderComponent,
+    NotificationDetailsAdminComponent,
+    NotificationDetailsProviderComponent,
+    NotificationDetailsUserComponent,
+    NavigationAdminComponent,
+    NavigationProviderComponent,
+    OrderDetailsAdminComponent,
+    OrderDetailsProviderComponent,
+    OrderDetailsUserComponent
   ],
   imports: [
     BrowserModule,
