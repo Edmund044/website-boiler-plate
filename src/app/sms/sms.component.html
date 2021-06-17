@@ -1,1 +1,49 @@
-<p>sms works!</p>
+<body class="text-center">
+  <app-navigation></app-navigation>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#" routerLink="/home" routerLinkActive="active">Home</a></li>
+      <li class="breadcrumb-item active"><a href="#" routerLink="/review" routerLinkActive="active">Review</a></li>
+    </ol>
+  </nav>
+
+  <div class="container">
+    <div class="row px-4 py-4 mx-auto">
+
+        <div class="col-sm-8 mx-auto">
+         <form >
+           <img class="mb-4" src="/assets/images/profile.jpg" alt="" width="150" height="150" style="object-fit:cover; border-radius:50%;">
+           <h4 class=" mb-3 fw-normal">Edmund Opiyo</h4>
+           <div class="form-floating">
+             <label for="floatingInput">How was the service?</label>
+             <select formControlName="rating" class="form-control" aria-label="Default select example">
+              <option disabled>Open this select menu</option>
+              <option value="1">Poor</option>
+              <option value="2">Below Average</option>
+              <option value="3">Average</option>
+              <option value="4">Good</option>
+              <option value="5">Excellent</option>
+            </select>
+           </div>
+           <div class="form-floating">
+            <label for="floatingPassword">Description</label>
+            <textarea class="form-control" formControlName="description"  id="exampleFormControlTextarea1" rows="10"></textarea>
+          </div>
+
+           <div class="checkbox mb-3">
+
+           </div>
+           <button class=" border-2 btn btn-md btn-primary"  style="width:40%" type="submit">Review</button>
+           <p class="mt-5 mb-3 text-muted"></p>
+         </form>
+       </div>
+
+    </div>
+  </div>
+   <main class="form-signin">
+
+   </main>
+
+
+
+     </body>

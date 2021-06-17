@@ -1,1 +1,68 @@
-<p>reviews works!</p>
+<app-navigation></app-navigation>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#" routerLink="/home" routerLinkActive="active">Home</a></li>
+    <li class="breadcrumb-item " aria-current="page"><a href="#" routerLink="/search/general" routerLinkActive="active">Services</a></li>
+    <li class="breadcrumb-item active"><a href="#" routerLink="/reviews" routerLinkActive="active">Reviews</a></li>
+  </ol>
+</nav>
+<div class="container" >
+  <div class="card-header text-center bg-light" >
+
+      <img class="" src="./assets/images/profile.jpg" alt="" width="100" height="100" style="object-fit:cover; border-radius:50%;">
+       <br><p>
+       <b>{{review.name}}</b><br>
+
+        </p>
+        <p>Location:{{review.location}}</p>
+        <p>Primary Skill:{{review.skills.primary}}</p>
+        <p>Secondary Skill:{{review.skills.secondary}}</p>
+  </div>
+    <div class="row">
+      <div class="mx-auto">
+
+         <h1 style="font-size:600%;"><b>{{review.rating}} </b></h1>
+         <small>
+          <span class="material-icons text-primary">star</span>
+          <span class="material-icons text-primary">star</span>
+          <span class="material-icons text-primary">star</span>
+          <span class="material-icons text-primary">star</span>
+          <span class="material-icons text-primary">star</span>
+        </small>
+        <p>based on {{review.noOfReviews}} reviews</p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="progress bg-success">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+    <div class="row">
+      <nav class="navbar d-flex justify-content-center mx-auto">
+        <a class=" border-2 btn btn-outline-primary btn-md  m-1" routerLink="/review/12" routerLinkActive="active" style="width:auto;" type="submit">Review Now</a>
+         <a class=" border-2 btn  btn-md btn-primary m-1" style="width:auto" type="submit">Call Now</a>
+    </nav>
+    </div>
+    <div class="row">
+      <div class="progress">
+        <div class="progress-bar bg-primary" style="width:70%"></div>
+      </div>
+    </div>
+    <div class="row" >
+      <app-comments></app-comments>
+
+
+    </div>
+
+</div>

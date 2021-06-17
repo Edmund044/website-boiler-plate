@@ -1,1 +1,39 @@
-<p>service-card works!</p>
+<div class="container" style="background-color:transparent;">
+  <div class="row" >
+    <div class="col-sm-4 mb-3" >
+      <div class="card text-center">
+        <!--<div class="card-header">
+          Featured
+        </div>-->
+        <img class="mb-4" src="./assets/images/lights.jpg" alt=""  style="width:100%;height:300px;object-fit:cover;">
+        <div class="card-body">
+
+
+          <h5 class="card-title"></h5>
+         <!-- <p class="card-text"><b>Location:</b> {{mechanicService.location}}</p>-->
+         <!--<small>
+            <span class="material-icons text-primary">star</span>
+            <span class="material-icons text-primary">star</span>
+            <span class="material-icons text-primary">star</span>
+            <span class="material-icons text-primary">star</span>
+            <span class="material-icons text-primary">star</span>
+            <span class=""><b>({{mechanicService.rating}})</b></span>
+
+          </small>-->
+
+
+        </div>
+
+        <div class="card-footer text-muted bg-light">
+          <a href="#" routerLinkActive="active" class="btn btn-primary">Discover</a>
+        </div>
+      </div>
+    </div>
+
+   </div>
+
+   <nav class="navbar d-flex justify-content-center">
+  <!--  <pagination-controls id="listing_pagination"   (pageChange)="page = $event"></pagination-controls>-->
+   </nav>
+   <ng-template #elseBlock><h1 class="text-center" >No results found</h1></ng-template>
+  </div>

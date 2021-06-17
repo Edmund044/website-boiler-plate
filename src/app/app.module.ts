@@ -73,6 +73,7 @@ import { FeaturesComponent } from './features/features.component';
 import { TractionComponent } from './traction/traction.component';
 import { ClientsComponent } from './clients/clients.component';
 import { NewsletterUserComponent } from './newsletter-user/newsletter-user.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -146,7 +147,8 @@ import { NewsletterUserComponent } from './newsletter-user/newsletter-user.compo
     FeaturesComponent,
     TractionComponent,
     ClientsComponent,
-    NewsletterUserComponent
+    NewsletterUserComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
