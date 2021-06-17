@@ -5,7 +5,7 @@
 
         </div>
         <div class="col-sm-6 p-5">
-         <form [formGroup]="loginForm" (ngSubmit)= "onSubmit()">
+         <form>
            <img class="mb-4" src="/assets/images/logo.png" alt="" width="150" height="100" style="object-fit:cover">
            <h4 class=" mb-3 fw-normal">Please sign in</h4>
            <div class="form-floating">
@@ -24,8 +24,8 @@
                <input type="checkbox" value="remember-me"> Remember me
              </label>-->
            </div>
-           <button class=" border-2 btn btn-md btn-primary" [disabled]="!loginForm.valid" style="width:40%" type="submit">Sign in</button>
-           <p class="mt-5 mb-3 text-danger">{{message}}</p>
+           <button class=" border-2 btn btn-md btn-primary" style="width:40%" type="submit">Sign in</button>
+           <p class="mt-5 mb-3 text-danger"></p>
            <label>
             <nav class="navbar d-flex justify-content-center ">
             <a href="#" routerLink="/register-admin" routerLinkActive="active" class="text-primary m-1">Don't have an account?Sign Up</a>
